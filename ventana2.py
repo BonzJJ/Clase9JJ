@@ -18,7 +18,7 @@ class Ventana2(QMainWindow):
 
         self.setWindowTitle("Usuarios Registrados")
 
-        self.setWindowIcon(QtGui.QIcon("imagenes/descarga.png"))
+        self.setWindowIcon(QtGui.QIcon("imagenes/img.png"))
         self.ancho = 1200
         self.alto = 800
 
@@ -33,7 +33,7 @@ class Ventana2(QMainWindow):
         self.setFixedHeight(self.alto)
 
         self.fondo = QLabel(self)
-        self.imagenFondo = QPixmap("imagenes/img.png")
+        self.imagenFondo = QPixmap("imagenes/img_2.png")
         self.fondo.setPixmap(self.imagenFondo)
         self.fondo.setScaledContents(True)
         self.resize(self.imagenFondo.width(), self.imagenFondo.height())
