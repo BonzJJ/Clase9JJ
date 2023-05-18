@@ -30,7 +30,7 @@ class Ventana1(QMainWindow):
         self.setFixedHeight(self.alto)
 
         self.fondo = QLabel(self)
-        self.imagenFondo = QPixmap("imagenes/img_4.png_.png")
+        self.imagenFondo = QPixmap("imagenes/img_4.png")
 
         self.fondo.setPixmap(self.imagenFondo)
 
