@@ -79,7 +79,7 @@ class Ventana3(QMainWindow):
 
         self.letrero1 = QLabel()
 
-        self.letrero1.setText("                                Usuarios Registrados")
+        self.letrero1.setText("Usuarios Registrados")
 
         self.letrero1.setFont(QFont("Comic Sans MS", 20))
 
@@ -157,7 +157,7 @@ class Ventana3(QMainWindow):
 
         self.vertical.addWidget(self.botonVolver)
 
-        #-----------OJO PONER AL FINAL DIOS MIO-------------
+        #-----------OJO PONER AL FINAL-------------
         self.fondo.setLayout(self.vertical)
 
 

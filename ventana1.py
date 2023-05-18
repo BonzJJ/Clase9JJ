@@ -30,8 +30,10 @@ class Ventana1(QMainWindow):
         self.setFixedHeight(self.alto)
 
         self.fondo = QLabel(self)
-        self.imagenFondo = QPixmap("imagenes/img_1.png")
+        self.imagenFondo = QPixmap("imagenes/img_4.png_.png")
+
         self.fondo.setPixmap(self.imagenFondo)
+
         self.fondo.setScaledContents(True)
         self.resize(self.imagenFondo.width(), self.imagenFondo.height())
 
@@ -46,15 +48,15 @@ class Ventana1(QMainWindow):
 
         self.letrero1 = QLabel("Información del cliente")
         self.letrero1.setFont(QFont("Comic Sans MS", 20))
-        self.letrero1.setStyleSheet("color: #FFFFFF;")
+        self.letrero1.setStyleSheet("color: black;")
         self.ladoIzquierdo.addRow(self.letrero1)
 
         self.letrero2 = QLabel()
         self.letrero2.setText("Ingrese la información del cliente"
-                              "\nen el formulario de abajo. Los campos marcados"
+                              "\nEn el formulario de abajo. Los campos marcados"
                               "\ncon asterisco * son obligatorios")
         self.letrero2.setFont(QFont("Comic Sans MS", 12))
-        self.letrero2.setStyleSheet("color: #FFFFFF;")
+        self.letrero2.setStyleSheet("color: black;")
         self.ladoIzquierdo.addRow(self.letrero2)
 
         self.nombreCompleto = QLineEdit()
@@ -114,7 +116,7 @@ class Ventana1(QMainWindow):
 
         self.letrero3 = QLabel("Recuperar contraseña")
         self.letrero3.setFont(QFont("Comic Sans MS", 20))
-        self.letrero3.setStyleSheet("color: #FFFFFF;")
+        self.letrero3.setStyleSheet("color: black;")
         self.ladoDerecho.addRow(self.letrero3)
 
         self.letrero4 = QLabel()
@@ -122,7 +124,7 @@ class Ventana1(QMainWindow):
                               "\nla contraseña. Los campos marcados"
                               "\ncon asterisco * son obligatorios.")
         self.letrero4.setFont(QFont("Comic Sans MS", 12))
-        self.letrero4.setStyleSheet("color: #FFFFFF;")
+        self.letrero4.setStyleSheet("color: black;")
         self.ladoDerecho.addRow(self.letrero4)
 
 # ---------PREGUNTA 1-------------------------------------------
