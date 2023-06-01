@@ -8,6 +8,8 @@ from ventana3 import Ventana3
 from cliente import Cliente
 import math
 
+from ventana4 import Ventana4
+
 
 class Ventana2(QMainWindow):
 
@@ -44,7 +46,7 @@ class Ventana2(QMainWindow):
 
         self.letrero1 = QLabel()
 
-        self.letrero1.setText("                      Usuarios Registrados")
+        self.letrero1.setText("Usuarios Registrados")
 
         self.letrero1.setFont(QFont("Comic Sans MS", 20))
 
@@ -183,8 +185,12 @@ class Ventana2(QMainWindow):
 
         self.fondo.setLayout(self.vertical)
 
-    def metodo_accionBotones(self, documento):
-        print(documento)
+    def metodo_accionBotones(self, cedulaUsuario):
+        #print(documento)
+        self.hide()
+        self.ventana4 = Ventana4(self, cedulaUsuario)
+        self.ventana4.show()
+
 
     def metodo_botonVolver(self):
         self.hide()
