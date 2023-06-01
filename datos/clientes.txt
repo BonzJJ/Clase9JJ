@@ -1,1 +1,2 @@
-yoan sebastian restrepo builes;yoan;12345;1020107849;yoansebastianrb@gmail.com;nombre de la mascota;firulais;nombre de la mama;yenni;nombre del papa;fredy
+yoan sebastian restrepo builes;yoan;12345;1020107849;yoansebastianrb@gmail.com;como se llama su mama;mariana;como se llama su papa;jairo;como se llama su mascota;firulais
+juan jose davis;jj;12345;1020107848;jj@gmail.com;como se llama su mama;marina;como se llama su papa;fredy;como se llama su mascota;jairo

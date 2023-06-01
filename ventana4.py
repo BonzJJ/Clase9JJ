@@ -201,7 +201,7 @@ class Ventana4(QMainWindow):
 
         self.horizontal.addLayout(self.ladoDerecho)
 
-        # OJO PONER AL FINAL JJ NIÑO LADRON
+        # ---- OJO PONER AL FINAL -------
         self.fondo.setLayout(self.horizontal)
 
     # ------------------CONSTRUCCION DE LA VENTANA EMERGENTE--------------------
