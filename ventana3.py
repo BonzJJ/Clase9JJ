@@ -15,7 +15,7 @@ class Ventana3(QMainWindow):
 
         self.setWindowTitle("Usuarios Registrados")
 
-        self.setWindowIcon(QtGui.QIcon("imagenes/descarga.png"))
+        self.setWindowIcon(QtGui.QIcon("imagenes/img.png"))
         self.ancho = 1200
         self.alto = 800
 
